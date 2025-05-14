@@ -1,16 +1,15 @@
-
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 interface Props {
-    children: React.ReactNode
+  children: React.ReactNode;
 }
 export default function Layout({ children }: Props) {
-    return (
-        <>
-            <Navbar />
-            <main>{children}</main>
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
 }

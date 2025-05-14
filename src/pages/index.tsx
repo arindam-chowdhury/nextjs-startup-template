@@ -9,7 +9,7 @@ export default function HomePage() {
   }
   return (
     <>
-      {verifyOTP == false ? (
+      {/* {verifyOTP == false ? (
         <div className={styled.main_container}>
           <form className={styled.form_container} action="">
             <div className={styled.input_content}>
@@ -43,7 +43,13 @@ export default function HomePage() {
             </button>
           </form>
         </div>
-      )}
+      )} */}
+      <div className="bg-slate-900 min-h-[100svh]">
+        <h2 className="text-4xl text-app-brand-light-grey">Heading 1</h2>
+        <h1 className="text-3xl text-app-brand-white">Heading 2</h1>
+        <h1 className="text-2xl text-app-brand-white">Heading 3</h1>
+        <h1 className="text-xl text-app-brand-white">Heading 4</h1>
+      </div>
     </>
   );
 }
